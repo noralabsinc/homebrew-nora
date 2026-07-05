@@ -1,22 +1,22 @@
 class Nora < Formula
   desc "Local Nora developer CLI"
   homepage "https://github.com/noralabsinc/nora"
-  version "0.1.3"
+  version "0.1.4"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.3/nora-cli-0.1.3-macos-arm64.tar.gz"
-      sha256 "425470d238f331867d814dd99def6ce441085dfc245a0474018aae22f08421c4"
+      url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.4/nora-cli-0.1.4-macos-arm64.tar.gz"
+      sha256 "4cdaea634472513a351e0c0312fa77e720ebb01d3c74349a375392c528c889d9"
     else
-      url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.3/nora-cli-0.1.3-macos-x86_64.tar.gz"
-      sha256 "d094d627b8955bac0a01dc55725c7772f7b96aa43a04bd1b4bd3132aea2e75bf"
+      url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.4/nora-cli-0.1.4-macos-x86_64.tar.gz"
+      sha256 "3e734cc1b915fb2321c2d98e7137dc54426c99c3529ebadc5d5793eff2504adf"
     end
   end
 
   on_linux do
-    url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.3/nora-cli-0.1.3-linux-x86_64.tar.gz"
-    sha256 "1e8e33f3901ef912bbf0f5aef02290a621aaae227e88631defe3af25a8d5d35e"
+    url "https://github.com/noralabsinc/homebrew-nora/releases/download/v0.1.4/nora-cli-0.1.4-linux-x86_64.tar.gz"
+    sha256 "52bf41cdd63778f3dda875c2d294a3ee26edf3cecdff9b3bd21a0482a92ecb4a"
   end
 
   def install
